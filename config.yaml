@@ -1,4 +1,4 @@
-data_root: /data/taveesh/vca  # Root directory for datasets and MLflow artifacts
+data_root: data  # Root directory for datasets and MLflow artifacts (MCQM: relative to CWD = team repo root; was /data/taveesh/vca)
 mlflow_db: mlruns.db  # SQLite database filename (resolved relative to data_root)
 
 gdrive:
